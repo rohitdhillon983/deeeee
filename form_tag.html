@@ -2,7 +2,46 @@
     <head><title>form tag</title></head>
     <body>
         <form action="" method="post">
-                
+     <label>Name</label><input type="text" placeholder="Enter your name"> <br><br>  
+     <label>Password</label><input type="password"><br><br>
+     <label>Gender</label><input type="radio" name="Gender" id="male"><label for="male">Male</label></label><input type="radio" name="Gender" id="Female"><label for="Female">Female</label> <br><br>
+     <label>Hobbies</label><input type="checkbox"name="hobby" id="music"> <label for="music">music</label></label><input type="checkbox" name="hobby" id="playing"><label for="playing">playing</label><input type="checkbox" name="hobby" id="bookreading"><label for="bookreading">bookreading</label> <br><br>
+     <label>Country</label>
+     <select name="" id="">
+        <option value="">Australia</option>
+        <option value="">Brazil</option>
+        <option value="">China</option>
+        <option value="">France</option>
+        <option value="">Germany</option>
+        <option value="" selected>India</option>
+        <option value="">Iraq</option>
+        <option value="">Israel</option>
+        <option value="">Italy</option>
+        <option value="">Japan</option>
+        <option value="">Spain</option>
+        <option value="">Russia</option>
+     </select><br><br>
+     <label>Message</label><textarea name="" id="" cols="30" rows="10"></textarea> <br><br>
+      <label for="">Cars</label><select name="" id="">
+        <optgroup label="Toyota">
+            <option value="">Innova</option>
+            <option value="">Etios</option>
+            <option value="">Fortuner</option>
+        </optgroup>
+        <optgroup label="Mahendra">
+                <option value="">Thar</option>
+                <option value="">Scarpio</option>
+                <option value="">creta</option>
+        </optgroup>
+      </select><br><br>
+     <label>Cars</label><input list="Cars">
+            <datalist id="cars">
+                <option value="Innova"/>
+                <option value="Kwid"/>
+                <option value="Ertiga">
+                <option value="Swift">
+                <option value="Duster">
+            </datalist>
         </form>
     </body>
 </html>
